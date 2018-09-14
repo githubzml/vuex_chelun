@@ -28,7 +28,7 @@
       // })
       //第二种
       changeNum(type){
-        this.$store.commit("changeNum",type)
+        this.$store.commit("app/changeNum",type)
       }
     },
     mounted(){
@@ -37,4 +37,5 @@
   }
 </script>
 <style>
+ 
 </style>

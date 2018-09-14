@@ -1,15 +1,13 @@
-import Vue from 'vue'
 
-// import "es6-promise/auto"
-// import Vuex from "vuex"
-import App from "./App"
-import store from "./store/index"
-
-Vue.config.productionTip = false;
+import Vue from "vue"
+import App from "./chelun/Chelun"
+import store from "./chelun/store/store"
+import router from "./chelun/router/index"
 
 new Vue({
-  el: '#app',
-  store,
-  components: { App },
-  template:"<App/>"
+    el:"#app",
+    store,
+    router,
+    components:{App},
+    template:"<App/>"
 })

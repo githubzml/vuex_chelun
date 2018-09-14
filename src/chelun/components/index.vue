@@ -60,6 +60,7 @@
 
             },
             touchStart() {
+                _hmt.push(['_trackEvent', env.env + ' 车轮', 'tap', '朱明路的']);
                 this.isflag = true;
             },
             touchMove(e) {

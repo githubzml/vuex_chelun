@@ -1,0 +1,25 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "name": "苹果",
+            "price": 12,
+            "num": 8,
+            "isSelect": false
+        },
+        {
+            "id": 2,
+            "name": "香蕉",
+            "price": 53,
+            "num": 1,
+            "isSelect": true
+        },
+        {
+            "id": 3,
+            "name": "车厘子",
+            "price": 70,
+            "num": 5,
+            "isSelect": true
+        }
+    ]
+}
